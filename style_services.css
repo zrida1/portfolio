@@ -1,0 +1,126 @@
+body{
+    background-color: black;
+
+}
+*{
+    /*border: 1px red solid;*/
+    font-family: 'Imprima', sans-serif;
+    font-weight: 100;
+    color: white;
+}
+#logo{
+    height: 52px;
+    width: 52px;
+    border-radius: 30px;
+    border: 1px white solid;
+}
+h2{
+    font-size: 20px;
+    color: white;
+    
+}
+#logoh2{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    
+}
+#header{
+    padding: 25px 80px;
+    
+}
+#rightpartofheader{
+    display: flex;
+    width: 750px;
+    justify-content: space-between;
+
+}
+#rightpartofheader :hover{
+    color: rgb(79, 4, 79);
+    cursor: pointer;
+}
+.menu{
+      width: auto;
+      padding: 15px 20px;
+    
+}
+#header{
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+#hireme{
+    border: 1px white solid;
+    
+}
+#hireme:hover{
+    background-color: white;
+    border-color: rgb(79, 4, 79);
+
+}
+#services{
+    color: rgb(79, 4, 79);
+    text-decoration: underline rgb(79, 4, 79) 1px;
+}
+#head{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+#bdy{
+    display: flex;
+    margin: 0 35px;
+}
+#left{
+    width: 50%;
+}
+
+.rghtpart{
+    margin-left: 10%;
+}
+#right{
+    width: 50%;
+}
+
+.lftpart{
+    margin-left: 10%;
+}
+.percentage{
+    height: 8px;
+    background-color: rgb(79, 4, 79);
+    border-radius: 100px;
+}
+#html{
+    width: 85%;
+}
+#css{
+    width: 80%;
+}
+#c{
+    width: 40%;
+}
+#cs{
+    width: 80%;
+    
+}
+#kotlin{
+    width: 75%;
+}
+#js{
+    width: 20%;
+}
+#cpp{
+    width: 70%;
+}
+#figma{
+    width: 95%;
+    
+}
+img{
+    display: block;
+    margin: 0 auto;
+}

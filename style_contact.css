@@ -1,0 +1,115 @@
+body{
+    background-color: black;
+
+}
+*{
+    /*border: 1px red solid;*/
+    font-family: 'Imprima', sans-serif;
+    font-weight: 100;
+    color: white;
+}
+#logo{
+    height: 52px;
+    width: 52px;
+    border-radius: 30px;
+    border: 1px white solid;
+}
+h2{
+    font-size: 20px;
+    color: white;
+    
+}
+#logoh2{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    
+}
+#header{
+    padding: 25px 80px;
+    
+}
+#rightpartofheader{
+    display: flex;
+    width: 750px;
+    justify-content: space-between;
+
+}
+#rightpartofheader :hover{
+    color: rgb(79, 4, 79);
+    cursor: pointer;
+}
+.menu{
+      width: auto;
+      padding: 15px 20px;
+    
+}
+#header{
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+#hireme{
+    border: 1px white solid;
+    background-color: white;
+    border-color: rgb(79, 4, 79);
+    color: rgb(79, 4, 79);
+}
+
+#head{
+    font-weight: bold;
+    padding-left: 25%;
+    padding-top: 50px;
+}
+#svglar{
+    width: 15%;
+    margin-left: 20%;
+    
+}
+.social{
+    height: 32px;
+    
+}
+/*
+#bdy{
+    display: flex;
+}*/
+.lefttxt{
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+    margin: 10px;
+}
+.lft {
+    display: flex;
+    align-items: center; 
+    margin-top: 10px;
+    
+}
+#bdy{
+    display: flex;
+}
+#bdtxt{
+    width: 40%;
+}
+.txt{
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.619);
+    margin: 28px 0;
+    font-weight: lighter;
+    font-style: none;
+}
+#intp{
+    display: block;
+    margin-left: 60%;
+    margin-top: -250px;
+    position: absolute;
+}
+a{
+    color:  rgba(255, 255, 255, 0.619);
+    text-decoration: none;
+}
+
